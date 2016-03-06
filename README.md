@@ -4,11 +4,11 @@ Key words: `Smart City`, `Urbanization`, `k-means`, `dbscan`, `geolocation`, `Po
 * [Kmeas](#kmeans)
 * [DBscan & Kmeans](#dbscan+kmeans)
 
-##### Kmeans
+### Kmeans
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result1.png)
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result2.png)
 
-##### DBscan+Kmeans
+### DBscan+Kmeans
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/6.png)
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/9.png)
 
