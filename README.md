@@ -14,7 +14,16 @@ The subject of this project was etablished under such circumstance.
 * [DBscan & Kmeans](#dbscan-and-kmeans)
 
 ## Kmeans
-The Shanghai City has been divided to 90+ blocks according to the metro lines and the main roads, each block has a statistic feature by counting the tweets for each tag in the block, this feature can be used to do clustering analyse (K-means for example).
+The Shanghai City has been divided to 90+ blocks according to the metro lines and the main roads, each block has a statistic feature by counting the tweets for each tag in the block, this feature can be used to do clustering analyse (K-means for example ).
+
+###### Rate of Satisfaction (RS)
+Once a K-means clustering finished, a calculation of degree of closeness to the ccenter of clustering for each cluster will run, and a RS (`Rate of Statisfaction`) will be given.
+
+###### Choice making of K
+Generally speaking, each time when K is fixed, the RS always tends to be stable as long as there is enough executions. 
+It's obvious that when K=1, the RS reach the minimum value, and when K=`number of blocks` the RS reach the maximun.
+
+The k (number of clusters) are chosen by a principle that: 
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result1.png)
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result2.png)
 
