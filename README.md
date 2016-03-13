@@ -14,6 +14,7 @@ The subject of this project was etablished under such circumstance.
 * [DBscan & Kmeans](#dbscan-and-kmeans)
 
 ## Kmeans
+The Shanghai City has been divided to 90+ blocks according to the metro lines and the main roads, each block has a statistic feature by counting the tweets for each tag in the block, this feature can be used to do clustering analyse (K-means for example).
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result1.png)
 ![image](https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result2.png)
 
