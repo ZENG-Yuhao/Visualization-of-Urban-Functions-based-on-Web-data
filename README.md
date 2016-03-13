@@ -1,5 +1,10 @@
 # Visualization of Urban Functions based on Web data
 Key words: `Smart City`, `Urbanization`, `k-means`, `dbscan`, `geo-location`, `PostgreSQL`, `PostGIS`, `UnfoldingMap`, `Processing`
+#### Overview
+* [Description](#description)
+* [Kmeas](#kmeans)
+* [DBscan](#dbscan)
+* [DBscan & Kmeans](#dbscan-and-kmeans)
 
 <img src="https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result1.png" alt="K-means" width="210" height="118">
 <img src="https://github.com/ZENG-Yuhao/Visualization-of-urban-functions-based-on-web-datas/blob/master/screenshots/result2.png" alt="K-means" width="210" height="118">
@@ -13,11 +18,6 @@ In 2012, with the explosive growth of the Internet and the smartphone market in 
 For most popular SNS sites such like Flickr, Facebook, Sina Weibo etc, has their own Open API platform which can be used to access to their users' public data. When people post a tweet on a SNS site with their smartphone, this tweet will be attached to a location (`latitude`, `longitude`) except some privacy case, and will also be attached to a tag (`restaurant`, `hospital`, `residence` etc.) of the nearest POI. With these locations and tags, we can do data mining and many other studies.
 
 The subject of this project was etablished under such circumstance.
-
-####Overview
-* [Kmeas](#kmeans)
-* [DBscan](#dbscan)
-* [DBscan & Kmeans](#dbscan-and-kmeans)
 
 ## Kmeans
 The Shanghai City has been divided to 93 blocks according to metro lines and the main roads, each block has a statistic feature by counting the tweets for each tag in the block, this feature can be used to do clustering analyse ( K-means for example ). Each cluster (block) has a representative color.
